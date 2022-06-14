@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<!--
+    
+-->
+
+<body>
+    <div id="app" class="max-w-6xl m-auto">
+        <section>
+            <header class="max-w-[860px] m-auto flex justify-between flex-col md:flex-row">
+                <div class="w-full flex justify-between border-b-2 md:border-none">
+                    <div class="logo flex items-center p-4 text-xl text-[#000000] upprercase font-semibold cursor-pointer">
+                        NLONG<span class="text-red-500">.</span>
+                    </div>
+                    <div id="menu" class="py-6 mr-6 block md:hidden">
+                        <img src="/public/images/menu.png " alt=" ">
+                    </div>
+                </div>
+                <ul class="list-nav hidden md:flex justify-end shadow-xl md:shadow-none transition-all">
+                    <!---->
+                </ul>
+            </header>
+        </section>
+        <section class="mx-[15px] md:mx-[0]">
+            <div class="introduce container mt-[60px] md:mt-[162px] mb-[50px] max-w-[860px] m-auto ">
+                <div class="flex flex-col-reverse md:grid grid-cols-2 md:grid-cols-3 gap-8 ">
+                    <div class="col-span-2 ">
+                        <h3 class="font-bold text-[44px] leading-[60px] text-center md:text-left text-[#21243D] mb-10  max-w-[316px] md:max-w-none m-auto">Hi, I am John,<br>Creative Technologist</h3>
+                        <p class="text-base font-normal leading-[23.5px] mb-9 text-center md:text-left">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button class="min-w-[208px] min-h-[47px] bg-[#FF6464] text-white leading-[47px] font-medium text-xl block m-auto md:inline">Download Resume</button>
+                    </div>
+                    <div class="col-span-1 m-auto">
+                        <!-- translate-x-[0px] md:translate-x-[-13px]-->
+                        <img src="/images/avt.jpg " class="object-cover min-w-[243px] min-h-[243px] " alt=" ">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container bg-[#EDF7FA] m-auto">
+            <div class="max-w-[860px] py-[26px] m-auto mx-[15px] lg:mx-auto">
+                <div class="title flex justify-between pb-[26px] ">
+                    <span class="font-regular text-[22px] w-full text-center md:text-left md:w-auto">Recent posts</span>
+                    <span class="text-[#3498db] font-regular text-[16px] hover:underline hover:cursor-pointer hidden md:block">View all</span>
+                </div>
+                <div class="list-content grid grid-cols-1 md:grid-cols-2 gap-8 ">
+                    <!---->
+                </div>
+            </div>
+        </section>
+        <section class="mx-[15px] md:mx-[0]">
+            <div class="featured-works max-w-[860px] m-auto ">
+                <div class="title py-[26px] ">
+                    <p class="text-xl pl-1 text-center md:text-left">Featured works</p>
+                </div>
+                <div class="list-featured_work">
+                    <!---->
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="content flex justify-center flex-col py-[48px] ">
+                <div class="network flex justify-center py-[15px] ">
+                    <img src="/public/images/fb.png " class="mx-[16px] py-4 " alt=" ">
+                    <img src="/public/images/insta.png " class="mx-[16px] py-4 " alt=" ">
+                    <img src="/public/images/Group.png " class="mx-[16px] py-4 " alt=" ">
+                    <img src="/public/images/Linkedin.png " class="mx-[16px] py-4 " alt=" ">
+                </div>
+                <p class="text-center "> Copyright ©2020 All rights reserved </p>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="/public/js/main.js"></script>
+    <script type="module" src="/public/js/index.js"></script>
+</body>
+
+</html>
