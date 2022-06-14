@@ -47,6 +47,8 @@ function showDetail(postWorks) {
 
     // return result;
 }
-showDetail(postWorks);
+if (urlId("id_d")) {
+    showDetail(postWorks);
+}
 
 Render(".list-featured_work", RecentPostsF(postWorks));
